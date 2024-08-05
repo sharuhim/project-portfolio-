@@ -1,22 +1,417 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>QR code component</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/25fdb930cb.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <title>Portfolio |Himanshu Sharma</title>
+
 </head>
+
 <body>
-  <div class="box">
-    <div class="img-box">
-      <img src="/images/image-qr-code.png" alt="">
+    <div class="container-fluid bg" style="position: fixed; z-index: 1;">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand " href="#"><strong
+                    style="color: rgb(69, 129, 167); font-size: 34px;">P</strong><strong
+                    class="text-uppercase">ortfolio.</strong> </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav ms-lg-auto ">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#work">Work</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
     </div>
-    <div class="content">
-      <h2>Improve your font-end skills by building projects</h2>
-      <p>Scan the qr code to visit frontend mentor and take your coding skills to the next level</p>
+    <section class="sec1 container-fluid" id="home">
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" class="data"
+            style="color: #fff; font-weight: bold;  margin-left: 30px; font-family: 'Outfit', sans-serif; font-size: 22px !important;">
+            Hello, my name is
+        </div>
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="2000" class="data2"
+            style="color: white; font-size: 50px !important; font-weight: bold; font-family: 'Outfit', sans-serif; margin-left: 30px; ">
+
+            Himanshu Sharma </div>
+        <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="3000" class="data3"
+            style="color: white;  font-size: 20px !important; font-weight: bold; font-family: 'Outfit', sans-serif; margin-left: 30px; ">
+
+
+            <!-- <button class="button"><a
+                    href="https://drive.google.com/file/d/141nEIvEni0qEeWMqJ97KBrwsP9e7iCfG/view?usp=sharing"
+                    target="_blank" download>Download CV
+                </a></button> -->
+        </div>
+
+    </section>
+    <div class="container-fluid mt-3" id="about">
+        <div class="row ">
+            <div class="col-lg-6 d-flex justify-content-center">
+                <img src="images/himanshu.jpg" class="img-fluid rounded-circle"
+                    style="height: 350px; width:340px; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;"
+                    alt="Please download the image">
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center flex-column mb-4 ">
+
+                <h1 class="p-4">&lt<strong>A</strong>bout/></h1>
+                <!-- <h>Hi</h> -->
+                <p class="text"> <span style="font-size: 30px; font-weight: 500">Hi,</span> I am
+                    from Ajmer, Rajasthan. I have completed BCA in  the year 2023. Currently, I am in
+                    Second year, pursuing MCA from JECRC College, Jaipur. In my leisure time, I like to spend time in
+                    learning Web development. In this process, I have created some projects like, a College Website,
+                    Accordion, Landing Page, Stopwatch, Clock etc. I have added some of my projects in the work section
+                    below.
+                    <!-- <br> To know more about me you can download my CV. -->
+
+
+                    <a href="#work" class="a"><i class="far fa-arrow-alt-circle-down"></i></span></button></a>
+                </p>
+            </div>
+        </div>
     </div>
-  </div>
+    <div class="container-fluid mt-3" id="skills">
+        <h2 class="text-center" style="font-size: 35px;"><strong>M</strong>y Skills</h2><br>
+        <!-- <h3 class="text-center "><strong>A</strong>lready Learned</h3><br> -->
+        <div id="skill">
+
+
+            <div class="row  ">
+                <div class="col-lg-7 col-md-12 d-flex justify-content-center flex-column  pt-3">
+                    <div class="row  ">
+                        <div class="col-md-4 col-xs-12 col-sm-6 d-flex justify-content-center   mb-2">
+                            <div class="skill-title">
+                                <div class="img">
+                                    <img src="images/1200px-HTML5_logo_resized.svg.png" alt="" style="width: 55px;"
+                                        class="skill-icon">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 col-xs-12 col-sm-6 d-flex justify-content-center  mb-2">
+                            <div class="skill-title">
+                                <div class="img">
+                                    <img src="images/html5-logo-31821.png" alt="" style="width: 55px;"
+                                        class="skill-icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-xs-12 col-sm-6 d-flex justify-content-center mb-2">
+                            <div class="skill-title">
+                                <div class="img">
+                                    <img src="images/icons8-c-programming-240.png" alt="" style="width: 55px;"
+                                        class="skill-icon">
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="row"> -->
+                        <div class="col-md-4 col-xs-12 col-sm-6 d-flex justify-content-center ">
+                            <div class="skill-title">
+                                <div class="img">
+                                    <img src="images/sass-1.svg" alt="" style="width: 55px;" class="skill-icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center mb-2">
+                            <div class="skill-title">
+                                <div class="img">
+                                    <img src="images/js-logo.png" alt="" style="width: 55px;" class="skill-icon">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12 d-flex justify-content-center ">
+                            <div class="skill-title">
+                                <div class="img">
+                                    <img src="images/1200px-ISO_C++_Logo.svg.png" alt="" style="width: 55px;"
+                                        class="skill-icon">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="col-lg-5 text-white ">
+                    <!-- style="box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;"> -->
+                    <div class="row pe-1">
+                        <div class="col-xs-12 pb-2">
+                            <h2 class="text-center"><strong>P</strong>rogress</h2><br>
+                            <h5 class="text-uppercase">Html</h5>
+
+                            <div class="progress mb-2 ">
+                                <div class="progress-bar " role="progressbar"
+                                    style="width: 95%; height: 20px; background: #6665ee;" aria-valuemin="0"
+                                    aria-valuemax="100">95%</div>
+                            </div>
+                            <h5 class="text-uppercase">CSS</h5>
+                            <div class="progress mb-2">
+                                <div class="progress-bar" role="progressbar" style="width: 90% ; background: #6665ee;"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">90%</div>
+                            </div>
+                            <h5 class="text-uppercase">C Language</h5>
+                            <div class="progress mb-2">
+                                <div class="progress-bar" role="progressbar" style="width: 80%; background: #6665ee;"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                            <h5 class="text-uppercase">Sass</h5>
+                            <div class="progress mb-2">
+                                <div class="progress-bar" style="background: #6665ee; width: 60%;" role="progressbar"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+
+                            <h5 class="text-uppercase">JavaScript</h5>
+                            <div class="progress mb-2">
+                                <div class="progress-bar" style="background: #6665ee; width: 40%;" role="progressbar"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">40%</div>
+                            </div>
+                            <h5 class="text-uppercase">C++</h5>
+                            <div class="progress  mb-2">
+                                <div class="progress-bar" style="background: #6665ee; width: 60%;" role="progressbar"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+                            <h5 class="text-uppercase">Linux</h5>
+                            <div class="progress mb-2">
+                                <div class="progress-bar" role="progressbar" style="width: 80%; background: #6665ee;"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container mt-4" id="work">
+        <h1 class="text-center pb-4"><strong>M</strong>y Projects</h1>
+        <div class="row">
+            <div class="col-lg-6 mb-2 ">
+                <div class="card  " style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+                    <div class="card-header ">
+                        <img src="images/work3.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <p>Restaurant Website</p>
+                        <button> <a href="https://piyushjain01.github.io/Happymeal/" target="_blank"><span><i
+                                        class="fas fa-globe"></i></span> Go Live</a></button>
+                        <button> <a href="https://github.com/PiyushJain01/Happymeal" target="_blank"><span><i
+                                        class="fab fa-github"></i></span> Visit Repository on Github</a></button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-2 ">
+
+                <div class="card " style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; ">
+                    <div class="card-header ">
+                        <img src="images/work4.png" class="img-fluid  pt-3 pb-3" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <p>College website</p>
+                        <button> <a href="https://piyushjain01.github.io/College_website/" target="_blank"><span><i
+                                        class="fas fa-globe"></i></span> Go Live</a></button>
+                        <button><a href="https://github.com/PiyushJain01/College_website" target="_blank"><span><i
+                                        class="fab fa-github"></i></span> Visit Repository on Github</a></button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row ">
+            <div class="col-lg-6 mb-2">
+                <div class="card " style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;">
+                    <div class="card-header">
+                        <img src="images/work1.png" class="img-fluid" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <p>Landing Page</p>
+                        <button> <a href="https://piyushjain01.github.io/Huddle_landing_page/" target="_blank"><span><i
+                                        class="fas fa-globe"></i></span> Go Live</a></button>
+                        <button> <a href="https://github.com/PiyushJain01/Huddle_landing_page" class="pb-2"
+                                target="_blank"><span><i class="fab fa-github"></i></span> Visit Repository on
+                                Github</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 mb-2">
+                <div class="card" style="box-shadow: rgba(88, 59, 59, 0.24) 0px 3px 8px;">
+                    <div class="card-header">
+                        <img src="images/piyushjain01.github.io_Accordion_.png" class="img-thumbnail" alt="">
+                    </div>
+                    <div class="card-body text-center">
+                        <p class="mt-4">Accordion</p>
+                        <button><a href="https://piyushjain01.github.io/Acordion/" target="_blank"><span><i
+                                        class="fas fa-globe "></i></span> Go Live</a></button>
+                        <button> <a href="https://github.com/PiyushJain01/Acordion/" target="_blank"><span><i
+                                        class="fab fa-github"></i></span> Visit Repository on
+                                Github</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container mb-3 mt-3" id="contact">
+        <h1 class="text-center mb-5 pb-0"><strong>C</strong>ontact me</h1>
+        <div class="row">
+            <div class="col-lg-6 d-flex  justify-content-center align-items-center">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3571.6685891507727!2d74.63148117542414!3d26.46640967691598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjbCsDI3JzU5LjEiTiA3NMKwMzgnMDIuNiJF!5e0!3m2!1sen!2sin!4v1722868545679!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <!-- </div> -->
+            <div class="col-lg-6 ">
+                <div class="row">
+                    <form autocomplete="off" style="box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; padding: 20px;">
+                        <h3>Send Message</h3>
+                        <div class="form-group">
+                            <label for="name">Name </label>
+                            <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email address</label>
+                            <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group pt-2">
+                            <label for="pwd">How can I help</label>
+                            <textarea name="Details" cols="30" rows="10"
+                                style="resize: none; width: 100%; border: 1px solid black;"></textarea>
+                        </div>
+
+                        <button type="submit" class="text-uppercase">Submit</button>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid " style="padding-top:20px !important">
+        <div class="row d-flex justify-content-center">
+            <!-- <div class="col-lg-12"> -->
+            <!-- <div class="row"> -->
+
+            <!-- <img src="images/5579058.jpg" class="img-fluid" alt=""> -->
+            <div class=" col-sm-6 col-lg-3  ">
+                <div>
+                    <h1><i class="fas fa-map-marker-alt d-flex justify-content-center "
+                            style="color: rgb(70, 109, 160);"></i></h1>
+                    <h4 class="text-center pb-1">Address</h4>
+                    <p class="text-center">Hathibhata  Ajmer</p>
+                </div>
+            </div>
+            <div class=" col-sm-6 col-lg-3 d-flex justify-content-center ">
+                <div>
+                    <h1><i class="fas fa-phone d-flex justify-content-center" style="color: rgb(70, 109, 160);"></i>
+                    </h1>
+                    <h4 class="text-center pb-1">Contact no.</h4>
+                    <p class="text-center">+91 7877693049</p>
+                </div>
+            </div>
+            <div class=" col-sm-6 col-lg-3 d-flex justify-content-center">
+                <div>
+                    <h1><i class="fas fa-envelope d-flex justify-content-center" style="color: rgb(70, 109, 160);"></i>
+                    </h1>
+                    <h4 class="text-center pb-1" style="font-size: 25x;">Email Address</h4>
+                    <p class=" text text-center">sharmahimashu002@gmail.com</p>
+                </div>
+            </div>
+
+
+            <!-- </div> -->
+        </div>
+    </div>
+    <!-- Footer -->
+    <h2 class="text-black text-center "></h2>
+    <footer class="page-footer font-small blue mt-3" style="background: rgb(115, 144, 182);">
+
+        <!-- Copyright -->
+        <div class="container-fluid mt-3">
+            <div class="row footer ">
+                <div class="col col-lg-12  mt-3 d-flex justify-content-center ">
+                    <a class="pe-3" href="https://www.facebook.com/" target="_blank" style="text-decoration: none;">
+                        <i class="fab fa-facebook-f"></i></a>
+                    <a class="pe-3 ps-2" href="https://www.instagram.com/himanshusharma_2309/" target="_blank"
+                        style="text-decoration: none;">
+                        <i class="fab fa-instagram text-white"></i></a>
+                    <a class="pe-3 ps-2" href="https://www.twitter.com/" target="_blank" style="text-decoration: none;">
+                        <i class="fab fa-twitter text-white"></i></a>
+
+                    <a class="pe-3 ps-2" target="_blank" href="https://www.linkedin.com/in/himanshu-sharma-4418a4275/"
+                        style="text-decoration: none;"> <i class="fab fa-linkedin-in text-white"></i></a>
+
+                </div>
+            </div>
+            <div class="row nav mb-3">
+                <h6 style="color: white;">Menu</h6>
+                <!-- <div class="col-sm-12"> -->
+                <ul style=" display: inline-block ">
+                    <li class="">
+                        <a href="#home">Home </a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#skills">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#work">Work</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+                <!-- </div> -->
+            </div>
+
+            <div class="footer-copyright text-center  py-3   " style="color: #fff;"> Created by Himanshu Sharma
+                <!-- <a class="text-white" href="https://getbootstrap.com/">Bootstrap.com</a> -->
+            </div>
+        </div>
+        <!-- Copyright -->
+
+    </footer>
+    <!-- Footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript">
+        $('.js-scroll-trigger').click(function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+
+
 </body>
+
 </html>
